@@ -20,7 +20,7 @@ if(BUILD_EXAMPLES)
   foreach(EXAMPLE_SOURCE ${EXAMPLE_SOURCES}) //команды для каждого значения в списке
     get_filename_component(EXAMPLE_NAME ${EXAMPLE_SOURCE} NAME_WE) //получаем компонент из списка
     add_executable(${EXAMPLE_NAME} ${EXAMPLE_SOURCE}) //добавляем исполняемый файл из источника
-    target_link_libraries(${EXAMPLE_NAME} print) добавление библиотек для цели
+    target_link_libraries(${EXAMPLE_NAME} print) //добавление библиотек для цели
     install(TARGETS ${EXAMPLE_NAME}
       RUNTIME DESTINATION bin
     ) // указывает правли для запуска во время установки 

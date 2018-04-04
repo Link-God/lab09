@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/Link-God/lab05.svg?branch=master)](https://travis-ci.org/Link-God/lab05)
+
 ## Laboratory work V
 
 Данная лабораторная работа посвещена изучению систем непрерывной интеграции на примере сервиса **Travis CI**

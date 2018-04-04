@@ -98,15 +98,15 @@ $ git push origin master
 ```
 
 ```ShellSession
-$ travis lint
-$ travis accounts
-$ travis sync
-$ travis repos
-$ travis enable
-$ travis whatsup
-$ travis branches
-$ travis history
-$ travis show
+$ travis lint // проверка на наличие ошибок
+$ travis accounts // показывает испоьзуемый аккаунт 
+$ travis sync // синхронизация трэфис и гитхаб (репозиториев)
+$ travis repos // вывод данных о репозиториях который подклбчены в трэвис 
+$ travis enable // отслеживается текущий проект 
+$ travis whatsup // список последних сборок
+$ travis branches //отображает последние версии сборок для каждой ветки
+$ travis history // вывод истории сборок 
+$ travis show // отображение сборки 
 ```
 
 ## Report
